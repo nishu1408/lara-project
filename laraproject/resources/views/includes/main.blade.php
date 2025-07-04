@@ -1,0 +1,5 @@
+@include('includes.header')
+@yield('content')
+@yield('styles')
+@yield('main-container')
+@include('includes.footer')
