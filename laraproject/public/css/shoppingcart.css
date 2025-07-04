@@ -1,0 +1,192 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            background-color: #f5f5f5;
+        }
+
+        .left-section {
+            width: 65%;
+        }
+
+        .right-section {
+            width: 30%;
+            background-color: #fbf8f1;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .product-card {
+            background-color: #fbf8f1;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            position: relative;
+        }
+
+        .product-image {
+            width: 150px;
+            height: 180px;
+            margin-right: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .product-image img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .product-info {
+            flex: 1;
+        }
+
+        .product-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .product-price {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .Apply-section {
+            border-bottom:1px solid;
+             min-height: 0px;
+
+        }
+
+
+        .product-details {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .product-details dt {
+            font-weight: bold;
+        }
+
+        .quantity-control {
+            display: flex;
+            align-items: center;
+            margin-top: 0px;
+            justify-content: flex-end;
+        }
+
+        .quantity-btn {
+            width: 30px;
+            height: 30px;
+            background-color: white;
+            color: black;
+            border: 1px solid;
+            font-size: 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quantity-input {
+            width: 28px;
+            height: 28px;
+            text-align: center;
+            margin: 0 1px;
+            border: 1px solid;
+        }
+
+        .delete-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            color: black;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .divider {
+            border-top: 1px solid #eee;
+            margin: 15px 0;
+        }
+
+        .discount-section {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .discount-input {
+            flex: 1;
+            padding: 8px;
+            margin-right: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .apply-btn {
+            background-color: #A0785A;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .sign-in-btn {
+            background-color: #fbf8f1;
+            color:#A0785A;
+            border: 1px solid;
+            padding: 10px 15px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .price-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .total {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .checkout-btn {
+            background-color: #A0785A;
+            color: white;
+            border: none;
+            padding: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        .payment-methods {
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        .footer-note {
+            font-size: 12px;
+            color: #666;
+            line-height: 1.5;
+        }
