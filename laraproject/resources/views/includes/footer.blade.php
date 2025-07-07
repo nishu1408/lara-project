@@ -38,7 +38,7 @@
                 <div class="footer-column">
                     <h4>Help</h4>
                     <ul>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="{{url('/contact')}}">Contact</a></li>
                         <li><a href="#">Orders</a></li>
                         <li><a href="#">Shipping Policy</a></li>
                         <li><a href="#">Return & Euthanges</a></li>

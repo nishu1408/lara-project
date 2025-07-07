@@ -5,22 +5,19 @@
 @endsection
 
 @section('main-container')
-<br>
-<br>
 <body>
     <!-- About Us Section -->
     <div class="heading-border">
-        <h1 class="aboutus-title">New Arrival</h1>
-      </div>
+        <h1 class="aboutus-title">About Us</h1>
+    </div>
     <div class="about-us-container">
-        <img src="images/aboutmainimage.jpg" alt="Lara & Together Logo" class="brand-logo">
-    
+        <img src="images/aboutmainimage.jpg" alt="Lara & Together Logo">
+    </div>
         <div class="content">
             <p>LARA, ESTABLISHED IN 2019 BY JULIA BROWN, KATIE HOBBS, AND SASHA MARTIN, IS A BRAND THAT EMBODIES VITALITY AND AMBITION. THE THREE FOUNDERS, EACH WITH REMARKABLE CAREERS IN DIFFERENT DOMAINS – JULIA IN FASHION DESIGN, KATIE IN DIGITAL MEDIA AND E-COMMERCE, AND SASHA IN FINANCE AND MARKETING – CAME TOGETHER WITH A SHARED VISION TO EXPLORE NEW POSSIBILITIES. BY MERGING THEIR DIVERSE PERFECTISE AND SHARED VALUES, THEY CREATED A BRAND THAT REFLECTS ENERGY, CREATIVITY, AND A FRESH PERSPECTIVE ON LIFE.</p>
             
             <p>THE JOURNEY OF LARA SYMBOLIZES A COLLECTIVE EFFORT TO BRING INNOVATION AND PERSONAL PASSION INTO A COLLABORATIVE VENTURE, OFFERING PRODUCTS OR SERVICES (DEPENDING ON THE BRANDS' FOCUS) THAT RESONATE WITH MODERN IDEALS AND LIFESTYLES. IF YOU'D LIKE TO EXPLORE MORE DETAILS ABOUT THEIR INSPIRATIONS, PRODUCT LINES, OR THE CHALLENGES THEY OVERCAME, LET ME KNOW!</p>
         </div>
-    </div>
 
     <!-- Modern Tradition Section -->
     <div class="mt-gallery">

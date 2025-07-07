@@ -15,10 +15,10 @@
     border: 1px solid #a67852;
     padding: 10px 10px 1px 10px;
     position: relative;
-    margin-bottom: 85px;
+    margin-bottom: 45px;
 }
 .new-arrivals-title {
-    font-size: 35px;
+    font-size: 40px;
     color:white;
     background-color: #a67852;
     position: relative;
@@ -54,14 +54,12 @@
     position: relative;
     margin-bottom: 30px;
 }
-
 /* Overlay Button with Double Border */
 .image-button {
     position: absolute;
     bottom: -30px; /* Adjust to cut bottom of image */
     left: 50%;
     transform: translateX(-50%);
-    
     background-color: #f0dd9e;
     color: black;
     padding: 12px 25px;
@@ -73,7 +71,6 @@
     transition: all 0.3s ease;
     z-index: 2;
 }
-
 /* On hover (optional styling) */
 .image-button:hover {
     background-color: rgb(187, 133, 51);

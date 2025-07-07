@@ -35,8 +35,8 @@
             <a href="{{url('/aboutus')}}">About Us</a>
         </div>
         <div class="nav-icons">
-            <a href="{{url('resources/views/layouts/search')}}"><i class="fas fa-search"></i></a>
-            <a href="#"><i class="fas fa-shopping-bag"></i></a>
-            <a href="#"><i class="fas fa-user"></i></a>
+            <a href="{{url('search')}}"><i class="fas fa-search"></i></a>
+            <a href="{{url('shoppingcart')}}"><i class="fas fa-shopping-bag"></i></a>
+            <a href="{{url('profile')}}"><i class="fas fa-user"></i></a>
         </div>
     </nav>

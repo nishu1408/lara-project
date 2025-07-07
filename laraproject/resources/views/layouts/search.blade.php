@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('includes.main')
+@section('title', 'Search')
+@section('styles')
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+@endsection
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Show Results</title>
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
+@section('main-container')
 <body>
 <!-- Search Header -->
 <div class="search-header">
@@ -65,10 +62,5 @@
         </div>
     </div>
 </div>
-
-
-
-<script src="search.js"></script>
 </body>
-
-</html>
+@endsection

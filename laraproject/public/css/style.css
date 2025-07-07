@@ -403,7 +403,7 @@ nav {
   
   .half-box {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1260px;
     padding: 0 30px;
   }
   
@@ -565,7 +565,7 @@ nav {
     height: 450px;
     background-color: #faf6ef;
     box-sizing: border-box;
-    margin:50px 0px 100px 0px;
+    margin:50px 0px 45px 0px;
   }
   
   .testimonial-content {
@@ -626,7 +626,6 @@ nav {
   
   .container {
     width: 100%;
-    height:100vh;
     position: relative;
     text-align: center;
   }
