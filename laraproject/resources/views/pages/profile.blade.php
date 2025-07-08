@@ -1,4 +1,4 @@
-@extends('includes.main')
+@extends('pages.main')
 @section('title', 'profile')
 @section('styles')
     <link rel="stylesheet" href="{{ asset('css/profile.css') }}">

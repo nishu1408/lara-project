@@ -1,6 +1,6 @@
-@extends('includes.main')
+@extends('pages.main')
+@section('site_title', 'Home')
 @section('main-container')
-<body>
 <!-- Hero Slider -->
     <section class="hero">
         <img class="bg-image" src="images\frame.png" alt="Background">
@@ -201,7 +201,6 @@
             </div>
         </div>
     </div>
-</body>
 <!-- Hot Holiday Collection -->
 <section class="halfnew-sec d-flex justify-content-center align-items-center">
   <div class="half-box">
@@ -315,5 +314,5 @@
                 <img src="images/galleryimage10.jpg" alt="Image 10">
             </div>
         </div>
-        @endsection
+@endsection
     

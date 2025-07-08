@@ -1,5 +1,5 @@
-@extends('includes.main')
-@section('title', 'New Arrivals')
+@extends('pages.main')
+@section('site_title', 'New_Arrivals')
 @section('styles')
     <link rel="stylesheet" href="{{ asset('css/newarrivals.css') }}">
 @endsection

@@ -9,6 +9,6 @@ class ShoppingcartController extends Controller
     //
     public function index()
     {
-        return view('layouts.shoppingcart');
+        return view('pages.shoppingcart');
     }
 }

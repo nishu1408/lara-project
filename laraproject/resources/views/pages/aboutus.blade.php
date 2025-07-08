@@ -1,5 +1,5 @@
-@extends('includes.main')
-@section('title', 'About Us')
+@extends('pages.main')
+@section('site_title', 'About_Us')
 @section('styles')
     <link rel="stylesheet" href="{{ asset('css/aboutus.css') }}">
 @endsection

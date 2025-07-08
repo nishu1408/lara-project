@@ -1,5 +1,5 @@
-@extends('includes.main')
-@section('title', 'Shoppingcart')
+@extends('pages.main')
+@section('title', 'Shopping_cart')
 @section('styles')
     <link rel="stylesheet" href="{{ asset('css/shoppingcart.css') }}">
 @endsection

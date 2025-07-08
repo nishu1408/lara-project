@@ -9,6 +9,6 @@ class ShopController extends Controller
     //
     public function index()
     {
-        return view('layouts.shop');
+        return view('pages.shop');
     }
 }

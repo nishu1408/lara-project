@@ -5,15 +5,15 @@
     font-family: Arial, sans-serif;
 }
 @font-face {
-    font-family: Voyage;
+    font-family: 'Voyage';
     src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\voyage-font-1751404472-0\voyage.otf);
 }
 @font-face {
-    font-family:spring LP Std;
+    font-family:'spring LP Std';
     src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\allfonts\Spring_LP_Std_Regular\Spring_LP_Std_Regular.otf);
 }
 @font-face {
-    font-family:Euclid Circular;
+    font-family:'Euclid Circular';
     src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\allfonts\EuclidCircularABold.ttf);
 }
 

@@ -9,6 +9,6 @@ class ProductdetailsController extends Controller
     //
     public function index()
     {
-        return view('layouts.productdetails');
+        return view('pages.productdetails');
     }
 }

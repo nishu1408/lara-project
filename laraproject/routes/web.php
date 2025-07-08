@@ -13,17 +13,13 @@ use App\Http\Controllers\ProductdetailsController;
 
 
 
+Route::get('/',[HomeController::class,'index']);
 Route::get('/home',[HomeController::class,'index']);
-Route::get('/newarrival',[NewArrivalController::class,'index']);
+Route::get('/new-arrival',[NewArrivalController::class,'index']);
 Route::get('/shop',[ShopController::class,'index']);
-Route::get('/aboutus',[AboutUsController::class,'index']);
+Route::get('/about-us',[AboutUsController::class,'index']);
 Route::get('/search',[SearchController::class,'index']);
-Route::get('/shoppingcart',[ShoppingcartController::class,'index']);
+Route::get('/shopping-cart',[ShoppingcartController::class,'index']);
 Route::get('/profile',[ProfileController::class,'index']);
 Route::get('/contact',[ContactController::class,'index']);
-Route::get('/productdetails', [ProductdetailsController::class, 'index'])->name('product.details');
-
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/product-details', [ProductdetailsController::class, 'index'])->name('product.details');

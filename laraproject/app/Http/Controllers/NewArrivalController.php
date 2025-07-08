@@ -9,6 +9,6 @@ class NewArrivalController extends Controller
     //
     public function index()
     {
-        return view('layouts.newarrival');
+        return view('pages.newarrival');
     }
 }
