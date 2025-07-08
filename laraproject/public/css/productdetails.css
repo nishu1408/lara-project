@@ -4,11 +4,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: Voyage;
+    src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\voyage-font-1751404472-0\voyage.otf);
+    font-family:spring LP;
+    src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\allfonts\spring-lp-std-regular_uIpq1.zip);
+}
+
 
 body {
     font-family: 'Montserrat', sans-serif;
     color: black;
     line-height: 1.6;
+    font-family: VOYAGE;
 }
 
 .container {
