@@ -6,6 +6,7 @@
 }
 @font-face {
     font-family: Voyage;
+<<<<<<< HEAD
     src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\voyage-font-1751404472-0\voyage.otf)
 }
 @font-face {
@@ -13,6 +14,15 @@
     src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\ALL FONTS\Spring LP Std Regular\Spring LP Std Regular.otf)
 }
 body {
+=======
+    src: url(url../../../../../../Users/kiritpatel/Downloads/spring-lp-std-regular_uIpq1.zip);
+    font-family: euclid-circular;
+    src: url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\allfonts\euclid-circular-a-cufonfonts.zip);
+
+}
+
+.body {
+>>>>>>> eabb8a2e3a75394acddef6e70ce7e849d2875822
     background-color:white;
 }
 
@@ -23,12 +33,17 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: relative;
+    font-family: voyage;
 }
 
 .logo {
     font-size: 32px;
+<<<<<<< HEAD
     font-style:italic;
     font-family:spring LP std;
+=======
+    font-family: Voyage;
+>>>>>>> eabb8a2e3a75394acddef6e70ce7e849d2875822
     color:white;
 }
 
@@ -208,6 +223,7 @@ nav {
     border: 16px solid white;
     position: relative;
     display: flex;
+    font-family: eclucid-circular;
 }
 
 /* Inner border */
@@ -464,7 +480,7 @@ nav {
 }
 
 .double-border::before {
-    content: "";
+
     position: absolute;
     top: 8px;
     left: 8px;
@@ -670,6 +686,7 @@ nav {
       margin:0px;
       margin-top:70px;
       width: 100%;
+      font-family:voyage;
   }
 
   .newsletter {
@@ -721,6 +738,7 @@ nav {
       margin-bottom: 20px;
       display: flex;
       align-items: center;
+      font-family: eclucid-circular;
   }
 
   .email-input input {

@@ -5,6 +5,10 @@ body {
     padding: 0;
     color: #333;
 }
+@font-face {
+    font-family: euclid-circular;
+    src: url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\allfonts\euclid-circular-a-cufonfonts.zip);
+}
 
 .outer-border {
     max-width: 950px;
@@ -28,7 +32,9 @@ h1 {
     color: #222;
     margin-bottom: 20px;
     text-align: center;
+    font-family: voyage;
 }
+
 
 .intro-text {
     font-size: 16px;
