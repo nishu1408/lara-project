@@ -6,9 +6,13 @@
 }
 @font-face {
     font-family: Voyage;
-    src: url(../all/ALL FONTS/voyage-1/VOYAGE.ttf)
+    src: url(url../../../../../../Users/kiritpatel/Downloads/spring-lp-std-regular_uIpq1.zip);
+    font-family: euclid-circular;
+    src: url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\allfonts\euclid-circular-a-cufonfonts.zip);
 
-body {
+}
+
+.body {
     background-color:white;
 }
 
@@ -19,11 +23,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: relative;
+    font-family: voyage;
 }
 
 .logo {
     font-size: 32px;
-    style:italic;
     font-family: Voyage;
     color:white;
 }
@@ -204,6 +208,7 @@ nav {
     border: 16px solid white;
     position: relative;
     display: flex;
+    font-family: eclucid-circular;
 }
 
 /* Inner border */
@@ -459,7 +464,7 @@ nav {
 }
 
 .double-border::before {
-    content: "";
+
     position: absolute;
     top: 8px;
     left: 8px;
@@ -665,6 +670,7 @@ nav {
       margin:0px;
       margin-top:70px;
       width: 100%;
+      font-family:voyage;
   }
 
   .newsletter {
@@ -716,6 +722,7 @@ nav {
       margin-bottom: 20px;
       display: flex;
       align-items: center;
+      font-family: eclucid-circular;
   }
 
   .email-input input {

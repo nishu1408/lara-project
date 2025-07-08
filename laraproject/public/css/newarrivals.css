@@ -9,6 +9,10 @@
     margin: 0 auto;
     padding: 20px;
 }
+@font-face {
+    font-family: euclid-circular;
+    src: url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\allfonts\euclid-circular-a-cufonfonts.zip);
+}
 
 /* Header Section */
 .heading-border {
@@ -24,6 +28,7 @@
     position: relative;
     padding: 28px;
     padding-left: 15px;
+    font-family: eclucid-circular;
 }
 
 /* Main Layout */
@@ -66,7 +71,7 @@
     border: 1px solid black;       /* Inner border */
     outline: 4px solid #f0dd9e;      /* Outer border */
     font-size: 16px;
-    font-family: serif;
+    font-family: voyage;
     cursor: pointer;
     transition: all 0.3s ease;
     z-index: 2;
@@ -126,22 +131,22 @@
 
 .featured-btn:hover {
     background-color: black;
-}      
-        
-        
+}
+
+
     /* Hot Holiday Collection without heading*/
   /* Hot Holiday Collection */
 .halfnew-sec {
     margin-top:80px 0px 10px 0px;
     background-color: #fff;
   }
-    
+
     .half-box {
       width: 100%;
       max-width: 1200px;
       padding: 0 30px;
     }
-    
+
     .half-flex {
       display: flex;
       gap: 20px;
@@ -152,17 +157,17 @@
       scrollbar-width: none; /* Firefox */
       -ms-overflow-style: none; /* IE */
     }
-    
+
     .half-flex::-webkit-scrollbar {
       display: none; /* Chrome, Safari */
     }
-    
+
     .half-item {
       width:280px;
       background: #fdf9f5;
       flex-shrink: 0;
     }
-    
+
     .half-img {
       width: 290px;
       height: 300px;
@@ -177,8 +182,7 @@
       border-radius:unset;
       transition: 0.3s;
     }
-    
+
     .hf-btn:hover {
       background-color:black;
     }
-    
