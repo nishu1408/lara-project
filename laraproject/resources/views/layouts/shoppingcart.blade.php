@@ -109,7 +109,7 @@
     </div>
 
      <!-- Hot Holiday without heading -->
-<section class="half-sec d-flex justify-content-center align-items-center">
+<section class="halfnew-sec d-flex justify-content-center align-items-center">
   <div class="half-box">
     <div class="half-flex">
       <div class="half-item text-center">
@@ -158,7 +158,7 @@
 </section>
 
  <!-- Hot Holiday without heading -->
- <section class="half-sec d-flex justify-content-center align-items-center">
+ <section class="halfnew-sec d-flex justify-content-center align-items-center">
   <div class="half-box">
     <div class="half-flex">
       <div class="half-item text-center">

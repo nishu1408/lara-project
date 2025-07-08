@@ -211,10 +211,59 @@
     color: #666;
     line-height: 1.5;
 }
-<<<<<<< HEAD
 
 .sc-signin-text {
     margin: 10px 0;
 }
-=======
->>>>>>> eabb8a2e3a75394acddef6e70ce7e849d2875822
+/* Hot Holiday Collection */
+.halfnew-sec {
+    margin-top:65px 0px 10px 0px;
+    background-color: #fff;
+    margin-top:65px;
+  }
+
+    .half-box {
+      width: 100%;
+      max-width: 1200px;
+      padding: 0 30px;
+    }
+
+    .half-flex {
+      display: flex;
+      gap: 20px;
+      padding-top:10px;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      padding-bottom: 10px;
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none; /* IE */
+    }
+
+    .half-flex::-webkit-scrollbar {
+      display: none; /* Chrome, Safari */
+    }
+
+    .half-item {
+      width:280px;
+      background: #fdf9f5;
+      flex-shrink: 0;
+    }
+
+    .half-img {
+      width: 290px;
+      height: 300px;
+      object-fit: cover;
+    }
+    .hf-btn {
+      background-color: #a67852;
+      color: white;
+      width:280px;
+      font-size: 14px;
+      padding: 10px 0px;
+      border-radius:unset;
+      transition: 0.3s;
+    }
+
+    .hf-btn:hover {
+      background-color:black;
+    }

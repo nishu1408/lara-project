@@ -5,10 +5,6 @@ body {
     padding: 0;
     color: #333;
 }
-@font-face {
-    font-family: euclid-circular;
-    src: url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\allfonts\euclid-circular-a-cufonfonts.zip);
-}
 
 .outer-border {
     max-width: 950px;
