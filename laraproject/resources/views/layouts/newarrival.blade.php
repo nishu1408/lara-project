@@ -67,16 +67,18 @@
     </div>
 
     <!-- Hot Holiday without heading -->
-<section class="half-sec d-flex justify-content-center align-items-center">
+<section class="halfnew-sec d-flex justify-content-center align-items-center">
   <div class="half-box">
     <div class="half-flex">
       <div class="half-item text-center">
         <img src="images/hotholidayimage.png" class="half-img mb-2" alt="Item">
         <p class="mb-1">Tulle Midi Dress</p>
         <p class="fw-bold mb-2">Rs. 74,999</p>
-        <button class="btn hf-btn">
-          <i class="fas fa-shopping-cart me-2"></i> Add To Cart
-        </button>
+        <a href="{{ url('productdetails') }}" class="btn hf-btn" style="text-decoration: none; display: inline-block;">
+        <i class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
+        <!-- <div class="btn hf-btn" style="text-decoration: none; display: inline-block;">
+        <a href="{{url('productdetails')}}"><i class="fas fa-shopping-bag"></i>Add To Cart</a>
+        </div> -->
       </div>
       <!-- Repeat for 8 items -->
       <div class="half-item text-center">

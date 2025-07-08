@@ -9,104 +9,105 @@
     <div class="heading-border">
         <h1 class="shoppingcart-title">Shopping Cart</h1>
     </div>
-    <div class="cart-container">
-        <div class="product-list-section">
-            <div class="product-card">
-                <button class="delete-btn"><i class="fa-regular fa-trash-can"></i></button>
-                <div class="product-image">
-                    <img src="images/hotholidayimage4.png" alt="Lease Fit Printed Blirt">
+    <div class="sc-cart-container">
+        <div class="sc-left-section">
+            <div class="sc-product-card">
+                <button class="sc-delete-btn"><i class="fas fa-trash-alt"></i></button>
+                <div class="sc-product-image">
+                    <img src="images/hotholidayimage4.png" alt="Locae Fit Printed Shirt 1">
                 </div>
-                <div class="product-info">
-                    <div class="product-title">Lease Fit Printed Blirt</div>
-                    <div class="product-price">Rs. 46,999.00</div>
-                    <div class="product-details">
+                <div class="sc-product-info">
+                    <div class="sc-product-title">Locae Fit Printed Shirt</div>
+                    <div class="sc-product-price">Rs. 45,999.00</div>
+                    <div class="sc-product-details">
                         <dt>Art.no.</dt>
-                        <dd>No. 1/2/202444</dd>
+                        <dd>SEMASS5444</dd>
                         <dt>Size</dt>
                         <dd>S</dd>
                         <dt>Color</dt>
-                        <dd>Black / Out Of Service</dd>
+                        <dd>Black / Cut Of Service</dd>
                         <dt>Total</dt>
-                        <dd>Rs. 3,078.88</dd>
+                        <dd>Rs. 93,996.20</dd>
                     </div>
-                    <div class="quantity-control">
-                        <button class="quantity-btn">-</button>
-                        <input type="text" class="quantity-input" value="1">
-                        <button class="quantity-btn">+</button>
+                    <div class="sc-quantity-control">
+                        <button class="sc-quantity-btn">-</button>
+                        <input type="text" class="sc-quantity-input" value="1">
+                        <button class="sc-quantity-btn">+</button>
                     </div>
                 </div>
             </div>
             
-            <div class="product-card">
-                <button class="delete-btn"><i class="fa-regular fa-trash-can"></i></button>
-                <div class="product-image">
-                    <img src="images/productimage3.jpg" alt="Lease Fit Printed Blirt">
+            <div class="sc-product-card">
+                <button class="sc-delete-btn"><i class="fas fa-trash-alt"></i></button>
+                <div class="sc-product-image">
+                    <img src="images/productshoppingimage.png" alt="Locae Fit Printed Shirt 2">
                 </div>
-                <div class="product-info">
-                    <div class="product-title">Lease Fit Printed Blirt</div>
-                    <div class="product-price">Rs. 46,999.00</div>
-                    <div class="product-details">
+                <div class="sc-product-info">
+                    <div class="sc-product-title">Locae Fit Printed Shirt</div>
+                    <div class="sc-product-price">Rs. 45,999.00</div>
+                    <div class="sc-product-details">
                         <dt>Art.no.</dt>
-                        <dd>No. 1/2/202444</dd>
+                        <dd>SEMASS5444</dd>
                         <dt>Size</dt>
                         <dd>S</dd>
                         <dt>Color</dt>
-                        <dd>Black / Out Of Service</dd>
+                        <dd>Black / Cut Of Service</dd>
                         <dt>Total</dt>
-                        <dd>Rs. 39,999.00</dd>
+                        <dd>Rs. 93,999.20</dd>
                     </div>
-                    <div class="quantity-control">
-                        <button class="quantity-btn">-</button>
-                        <input type="text" class="quantity-input" value="1">
-                        <button class="quantity-btn">+</button>
+                    <div class="sc-quantity-control">
+                        <button class="sc-quantity-btn">-</button>
+                        <input type="text" class="sc-quantity-input" value="1">
+                        <button class="sc-quantity-btn">+</button>
                     </div>
                 </div>
             </div>
         </div>
         
-        <div class="order-summary-section">
-            <div class="discount-section">
-                <h3>Discounts</h3>
-                <div class="Apply-section">
-                    <h4>Apply Discount</h4>
+        <div class="sc-right-section">
+            <div class="sc-discount-section">
+                <h6>Discounts</h6>
+                <div class="sc-apply-section">
+                    <h5>Apply Discount</h5>
                 </div>
             </div>
             
-            <p>Sign in to use your personal offers!</p>
-            <button class="sign-in-btn">Sign in</button>
+            <p class="sc-signin-text">Sign in to use your personal offers!</p>
+            <button class="sc-signin-btn">Sign in</button>
             
-            <div class="divider"></div>
+            <div class="sc-divider"></div>
             
-            <div class="price-row">
+            <div class="sc-price-row">
                 <span>Order Value</span>
-                <span>Rs. 131,997.00</span>
+                <span>Rs. 101,997.00</span>
             </div>
-            <div class="price-row">
+            <div class="sc-price-row">
                 <span>Delivery</span>
                 <span>FREE</span>
             </div>
             
-            <div class="divider"></div>
+            <div class="sc-divider"></div>
             
-            <div class="price-row total">
+            <div class="sc-price-row sc-total">
                 <span>Total</span>
                 <span>Rs. 131,997.00</span>
             </div>
             
-            <button class="checkout-btn">Continue to Checkout</button>
+            <button class="sc-checkout-btn">Continue to Checkout</button>
             
-            <div class="payment-methods">
+            <div class="sc-payment-methods">
                 <p>We accept</p>
                 <p>Cash on Delivery <strong>VISA</strong></p>
             </div>
             
-            <p class="footer-note">
-                Prices and delivery costs are not confirmed until you've received the checked.<br>
-                If we have returns, Read more about return and refund policy. Customers would receive an SHA/whose/cap notification regarding deliveries on the registered phone number.
+            <p class="sc-footer-note">
+                Phone and delivery costs are not confirmed until you've reached the checkout.<br>
+                15 days free returns, local map about return and refund policy.<br>
+                Customer would receive an 95% purchase/up notification regarding deliveries on the registered phone number.
             </p>
         </div>
     </div>
-</body>
+
      <!-- Hot Holiday without heading -->
 <section class="half-sec d-flex justify-content-center align-items-center">
   <div class="half-box">

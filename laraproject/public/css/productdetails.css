@@ -1,0 +1,258 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Section */
+.heading-border {
+    border: 1px solid #a67852;
+    padding: 10px 10px 1px 10px;
+    position: relative;
+    margin:40px 0px;
+    margin-bottom: 30px;
+}
+.productdetails-title {
+    font-size: 40px;
+    font-family: Voyage;
+    style:regular;
+    color:white;
+    background-color: #a67852;
+    padding: 28px;
+}
+
+/* Product Layout */
+.product-container {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.product-images {
+    flex: 1;
+}
+
+.main-image {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    height: 82%;
+    object-fit: inherit;
+}
+
+.thumbnail-images {
+    display: flex;
+    gap: 15px;
+}
+
+.thumbnail-images img {
+    width: 175px;
+    height: 160px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.product-details {
+    flex: 1;
+    text-align:left;
+}
+
+.product-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.product-price {
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 20px;
+}
+/* Color Options with Images */
+.color-options {
+margin-bottom: 25px;
+}
+
+.color-options span {
+font-weight: 600;
+display: block;
+margin-bottom: 10px;
+}
+
+.color-images {
+display: flex;
+gap: 15px;
+}
+
+.color-image-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+cursor: pointer;
+padding: 5px;
+border-radius: 5px;
+}
+
+.color-image-container.active {
+border: 1px solid #A0785A;
+}
+
+.color-image {
+width: 60px;
+height: 60px;
+object-fit: cover;
+}
+
+.color-image-container span {
+font-size: 12px;
+font-weight: 500;
+}
+
+.product-color {
+    margin-bottom: 20px;
+}
+
+.product-color span {
+    font-weight: 600;
+}
+
+/* Size Chart */
+.size-chart {
+    margin: 25px 0;
+}
+
+.size-chart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.size-chart th, .size-chart td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.size-chart th {
+    background-color: broun;
+    font-weight: 600;
+}
+.size-chart th:hover{
+    background-color: #A0785A;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    background-color:#A0785A;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 20px 0;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #333;
+}
+
+/* Reviews */
+.reviews {
+    margin: 30px 0;
+}
+
+.rating {
+    color: black;
+    margin-bottom: 10px;
+}
+/* True to Size Rating */
+
+
+.true-to-size h3 {
+font-size: 18px;
+font-weight: 600;
+
+}
+
+.size-ratings {
+display: flex;
+flex-direction: column;
+}
+
+.size-rating {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 10px;
+}
+
+.size-rating span {
+font-size: 14px;
+flex: 1;
+text-align: center;
+}
+
+.rating-bar {
+height: 4px;
+background-color: #ddd;
+margin: 0 10px;
+flex: 2;
+}
+
+/* Description */
+.description {
+    margin: 40px 0;
+
+    border-bottom: 1px solid #eee;
+}
+
+.description h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* Trending Section */
+.trending-section {
+    margin: 50px 0;
+}
+
+.trending-section h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.trending-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-left:100px;
+}
+
+.trending-item {
+    background-color:white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    border:1px solid;
+}

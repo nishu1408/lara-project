@@ -17,7 +17,7 @@
         rel="stylesheet">
 
     <!-- AOS CSS -->
-    <link href="{{url('all\aos-master\dist\aos.css')}}" rel="stylesheet">
+    <link href="{{url('aos-master\dist\aos.css')}}" rel="stylesheet">
 
     <!-- Slick Slider CSS -->
     <link rel="stylesheet" type="text/css" href="{{url('all\slick-1.8.1\slick\slick.css')}}" />

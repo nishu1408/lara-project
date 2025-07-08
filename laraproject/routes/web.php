@@ -9,6 +9,7 @@ use App\Http\Controllers\SearchController;
 use App\Http\Controllers\ShoppingcartController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ProductdetailsController;
 
 
 
@@ -20,7 +21,7 @@ Route::get('/search',[SearchController::class,'index']);
 Route::get('/shoppingcart',[ShoppingcartController::class,'index']);
 Route::get('/profile',[ProfileController::class,'index']);
 Route::get('/contact',[ContactController::class,'index']);
-
+Route::get('/productdetails', [ProductdetailsController::class, 'index'])->name('product.details');
 
 
 // Route::get('/', function () {

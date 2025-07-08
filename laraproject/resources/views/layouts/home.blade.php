@@ -7,7 +7,7 @@
         <div class="content-container">
             <div class="image-border">
                 <div class="text-content">
-                    <h3>Lara</h3>
+                    <h2 class="logo">Lara</h2>
                     <h1>Black Friday Collection</h1>
                     <p>Lorem ipsum dolor sit amet consectetur.Nibh morbi elit pretium in ultrices morbi ornare.</p>
                     <button class="shop-button">Shop The Limited Collection</button>

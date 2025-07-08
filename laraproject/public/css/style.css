@@ -6,8 +6,12 @@
 }
 @font-face {
     font-family: Voyage;
-    src: url(../all/ALL FONTS/voyage-1/VOYAGE.ttf)
-
+    src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\voyage-font-1751404472-0\voyage.otf)
+}
+@font-face {
+    font-family:spring LP Std;
+    src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\ALL FONTS\Spring LP Std Regular\Spring LP Std Regular.otf)
+}
 body {
     background-color:white;
 }
@@ -23,8 +27,8 @@ nav {
 
 .logo {
     font-size: 32px;
-    style:italic;
-    font-family: Voyage;
+    font-style:italic;
+    font-family:spring LP std;
     color:white;
 }
 
@@ -233,7 +237,7 @@ nav {
     text-align: center;
 }
 
-.text-content h3{
+.text-content h2{
     font-size: 36px;
     margin-top:35px;
     margin-bottom:5px;
@@ -242,6 +246,7 @@ nav {
 
 .text-content p {
     font-size: 16px;
+    font-family:Voyage;
     line-height: 1.6;
     color:black;
     margin-bottom: 20px;

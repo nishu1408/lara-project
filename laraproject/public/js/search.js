@@ -22,3 +22,7 @@ document.querySelectorAll('.suggested-results li').forEach(item => {
         searchTitle.value = item.textContent;
     });
 });
+// Remove any event listeners that might be blocking navigation
+document.querySelector('.hf-btn').addEventListener('click', function(e) {
+    e.preventDefault(); // Remove this if it exists
+});
