@@ -6,15 +6,13 @@
 }
 @font-face {
     font-family: Voyage;
-<<<<<<< HEAD
-    src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\voyage-font-1751404472-0\voyage.otf)
+    src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\voyage-font-1751404472-0\voyage.otf);
+    font-family:spring LP;
+    src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\allfonts\spring-lp-std-regular_uIpq1.zip);
 }
-@font-face {
-    font-family:spring LP Std;
-    src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\ALL FONTS\Spring LP Std Regular\Spring LP Std Regular.otf)
-}
+
 body {
-=======
+    font-family: voyage;
     src: url(url../../../../../../Users/kiritpatel/Downloads/spring-lp-std-regular_uIpq1.zip);
     font-family: euclid-circular;
     src: url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\allfonts\euclid-circular-a-cufonfonts.zip);
@@ -22,7 +20,7 @@ body {
 }
 
 .body {
->>>>>>> eabb8a2e3a75394acddef6e70ce7e849d2875822
+
     background-color:white;
 }
 
@@ -38,12 +36,9 @@ nav {
 
 .logo {
     font-size: 32px;
-<<<<<<< HEAD
     font-style:italic;
-    font-family:spring LP std;
-=======
+    font-family:spring LP ;
     font-family: Voyage;
->>>>>>> eabb8a2e3a75394acddef6e70ce7e849d2875822
     color:white;
 }
 
