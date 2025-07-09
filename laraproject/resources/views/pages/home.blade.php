@@ -1,4 +1,4 @@
-@extends('pages.main')
+@extends('layout.main')
 @section('site_title', 'Home')
 @section('main-container')
 <!-- Hero Slider -->

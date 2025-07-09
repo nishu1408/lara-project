@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     @include('includes.head')
-    @stack('styles')
 </head>
 <body>
+    @stack('styles')
     @include('includes.header')
 
     <main>

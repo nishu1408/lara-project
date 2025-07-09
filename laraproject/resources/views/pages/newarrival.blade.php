@@ -1,8 +1,8 @@
-@extends('pages.main')
+@extends('layout.main')
 @section('site_title', 'New_Arrivals')
-@section('styles')
+@push('styles')
     <link rel="stylesheet" href="{{ asset('css/newarrivals.css') }}">
-@endsection
+@endpush
 
 @section('main-container')
 <body>

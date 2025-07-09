@@ -5,7 +5,6 @@
     font-family: Arial, sans-serif;
 }
 @font-face {
-<<<<<<< HEAD
     font-family: 'Voyage';
     src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\voyage-font-1751404472-0\voyage.otf);
 }
@@ -20,19 +19,10 @@
 
 .body {
         background-color:white;
-=======
-    font-family: Voyage;
-    src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\voyage-font-1751404472-0\voyage.otf);
-    font-family:spring LP;
-    src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\allfonts\spring-lp-std-regular_uIpq1.zip);
+        font-family: Voyage;
 }
 
 
-.body {
-
-    background-color:white;
->>>>>>> 8a256d191e5962c3bb586af66bbebdf8d820e10f
-}
 
 nav {
     background-color:#A0785A;
@@ -47,10 +37,7 @@ nav {
 .logo {
     font-size: 32px;
     font-style:italic;
-<<<<<<< HEAD
-=======
     font-family:spring LP ;
->>>>>>> 8a256d191e5962c3bb586af66bbebdf8d820e10f
     font-family: Voyage;
     color:white;
 }

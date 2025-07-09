@@ -1,8 +1,8 @@
-@extends('pages.main')
+@extends('layout.main')
 @section('title', 'Search')
-@section('styles')
+@push('styles')
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-@endsection
+@endpush
 
 @section('main-container')
 <body>

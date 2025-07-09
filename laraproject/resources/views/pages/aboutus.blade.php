@@ -1,13 +1,12 @@
-@extends('pages.main')
+@extends('layout.main')
 @section('site_title', 'About_Us')
-@section('styles')
+@push('styles')
     <link rel="stylesheet" href="{{ asset('css/aboutus.css') }}">
-@endsection
+@endpush
 
 @section('main-container')
-<body>
     <!-- About Us Section -->
-    <div class="heading-border">
+    <div class="heading-border">    
         <h1 class="aboutus-title">About Us</h1>
     </div>
     <div class="about-us-container">
@@ -43,5 +42,4 @@
             </div>
         </section>
     </div>
-</body>
 @endsection

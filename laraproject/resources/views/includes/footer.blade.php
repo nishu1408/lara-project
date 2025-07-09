@@ -60,9 +60,8 @@
         <div class="brand">
             <p>LARA LUXURY</p>
         </div>
-        <script src="index.js"></script>
+    <script src="index.js"></script>
     <script src="search.js"></script>
-
     <script src="script.js"></script>
 
     <!-- Bootstrap JS -->
@@ -72,5 +71,4 @@
     <script src="C:\xampp\htdocs\mainlaravelpr\public\all\slick-1.8.1\slick\slick.js"></script>
     <!-- AOS JS -->
     <script src="C:\xampp\htdocs\mainlaravelpr\public\aos-master\dist\aos.js"></script>
-</body>
 </footer>

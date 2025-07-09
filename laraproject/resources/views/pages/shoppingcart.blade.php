@@ -1,8 +1,8 @@
-@extends('pages.main')
+@extends('layout.main')
 @section('title', 'Shopping_cart')
-@section('styles')
+@push('styles')
     <link rel="stylesheet" href="{{ asset('css/shoppingcart.css') }}">
-@endsection
+@endpush
 
 @section('main-container')
 <body>
