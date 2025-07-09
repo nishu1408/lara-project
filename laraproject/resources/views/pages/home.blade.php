@@ -10,7 +10,7 @@
                     <h2 class="logo">Lara</h2>
                     <h1>Black Friday Collection</h1>
                     <p>Lorem ipsum dolor sit amet consectetur.Nibh morbi elit pretium in ultrices morbi ornare.</p>
-                    <button class="shop-button">Shop The Limited Collection</button>
+                    <a href="{{url('shop')}}"><button class="shop-button">Shop The Limited Collection</button></a>
                 </div>
             </div>
             <div class="image-content">

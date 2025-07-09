@@ -211,6 +211,7 @@
     color: #666;
     line-height: 1.5;
 }
+<<<<<<< HEAD
 
 .sc-signin-text {
     margin: 10px 0;
@@ -267,3 +268,8 @@
     .hf-btn:hover {
       background-color:black;
     }
+=======
+ .sc-signin-text {
+    margin: 10px 0;
+}
+>>>>>>> 8a256d191e5962c3bb586af66bbebdf8d820e10f

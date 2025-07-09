@@ -4,11 +4,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: Voyage;
+    src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\voyage-font-1751404472-0\voyage.otf);
+    font-family:spring LP;
+    src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\allfonts\spring-lp-std-regular_uIpq1.zip);
+}
+
 
 body {
     font-family: 'Voyage';
     color: black;
     line-height: 1.6;
+    font-family: VOYAGE;
 }
 
 .container {
@@ -256,6 +264,7 @@ flex: 2;
     font-size: 14px;
     border:1px solid;
 }
+<<<<<<< HEAD
 /* Hot Holiday Collection */
 .halfnew-sec {
     margin-top:80px 0px 10px 0px;
@@ -455,3 +464,5 @@ flex: 2;
         width: 150px;
     }
 }
+=======
+>>>>>>> 8a256d191e5962c3bb586af66bbebdf8d820e10f
