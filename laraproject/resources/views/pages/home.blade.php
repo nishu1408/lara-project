@@ -90,16 +90,9 @@
             </div>
             <div class="collection-item">
                 <img src="{{ asset('images\trendyimage2_11zon.png') }}" alt="Best Guest Dress">
-
-                <img src="{{asset('images\image1.png')}}">
-                <p>Knits</p>
+                <P>Best Guest Dress</p>
             </div>
-            <div class="collection-item">
-                <img src="{{ asset('trendyimage2_11zon.png') }}" alt="Best Guest Dress">
-
-                <p>Best Guest Dress</p>
-            </div>
-            <div class="collection-item">
+             <div class="collection-item">
                 <img src="{{ asset('images\trendyimage3.png') }}" alt="Sets">
                 <p>Sets</p>
             </div>
