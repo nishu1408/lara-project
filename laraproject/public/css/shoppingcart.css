@@ -1,0 +1,275 @@
+.heading-border {
+    border: 1px solid #a67852;
+    padding: 10px 10px 1px 10px;
+    position: relative;
+    margin:20px 45px;
+    margin-bottom: 30px;
+
+}
+@font-face {
+    font-family: voyage;
+    src: url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\allfonts\spring-lp-std-regular_uIpq1.zip);
+    font-family:voyage;
+    src:url(C:\xampp\htdocs\lara-project-git\laraproject\public\all\allfonts\voyage-1);
+}
+.shoppingcart-title {
+    font-size: 40px;
+    color:white;
+    background-color: #a67852;
+    padding: 28px;
+    padding-left: 485px;
+    font-family: spring LP;
+}
+.sc-cart-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sc-left-section {
+    width: 65%;
+    margin: 0;
+    padding: 20px;
+}
+
+.sc-right-section {
+    width: 30%;
+    background-color: #fbf8f1;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px 20px -50px 0;
+    background-color: #f5f5f5;
+}
+
+.sc-product-card {
+    background-color: #fbf8f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    position: relative;
+}
+
+.sc-product-image {
+    width: 150px;
+    height: 180px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.sc-product-image img {
+    height:65vh;
+    padding-top:132px;
+    object-fit: contain;
+}
+
+.sc-product-info {
+    flex: 1;
+}
+
+.sc-product-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: spring LP;
+}
+
+.sc-product-price {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.sc-apply-section {
+    border-bottom: 1px solid #ddd;
+    min-height: 0px;
+}
+
+.sc-product-details {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.sc-product-details dt {
+    font-weight: bold;
+}
+
+.sc-quantity-control {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    justify-content: flex-end;
+}
+
+.sc-quantity-btn {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sc-quantity-input {
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    margin: 0 1px;
+    border: 1px solid #ddd;
+}
+
+.sc-delete-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sc-divider {
+    border-top: 1px solid #eee;
+    margin: 15px 0;
+}
+
+.sc-discount-section {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sc-discount-input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+}
+
+.sc-apply-btn {
+    background-color: #A0785A;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sc-signin-btn {
+    background-color: #fbf8f1;
+    color: #A0785A;
+    border: 1px solid #A0785A;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.sc-price-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.sc-total {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sc-checkout-btn {
+    background-color: #A0785A;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.sc-payment-methods {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.sc-footer-note {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.5;
+}
+<<<<<<< HEAD
+
+.sc-signin-text {
+    margin: 10px 0;
+}
+/* Hot Holiday Collection */
+.halfnew-sec {
+    margin-top:65px 0px 10px 0px;
+    background-color: #fff;
+    margin-top:65px;
+  }
+
+    .half-box {
+      width: 100%;
+      max-width: 1200px;
+      padding: 0 30px;
+    }
+
+    .half-flex {
+      display: flex;
+      gap: 20px;
+      padding-top:10px;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      padding-bottom: 10px;
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none; /* IE */
+    }
+
+    .half-flex::-webkit-scrollbar {
+      display: none; /* Chrome, Safari */
+    }
+
+    .half-item {
+      width:280px;
+      background: #fdf9f5;
+      flex-shrink: 0;
+    }
+
+    .half-img {
+      width: 290px;
+      height: 300px;
+      object-fit: cover;
+    }
+    .hf-btn {
+      background-color: #a67852;
+      color: white;
+      width:280px;
+      font-size: 14px;
+      padding: 10px 0px;
+      border-radius:unset;
+      transition: 0.3s;
+    }
+
+    .hf-btn:hover {
+      background-color:black;
+    }
+=======
+ .sc-signin-text {
+    margin: 10px 0;
+}
+>>>>>>> 8a256d191e5962c3bb586af66bbebdf8d820e10f
