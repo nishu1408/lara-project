@@ -85,7 +85,7 @@
         <h2>Trendy Collections</h2>
         <div class="collection-row">
             <div class="collection-item">
-              <img src="{{asset('images\8cf9904eaf45720eda73e0209a70ab006ad4b972.png')}}">
+              <img src="{{asset('images\image1.png')}}">
                 <p>Knits</p>
             </div>
             <div class="collection-item">
@@ -184,13 +184,13 @@
 
             <div class="crushimage-grid">
                 <div class="crushimage-box">
-                    <img src="{{asset('images\blackimage.png') }}" alt="Product 1">
+                    <img src="{{asset('images\crush1.png') }}" alt="Product 1">
                 </div>
                 <div class="crushimage-box">
-                    <img src="{{ asset('images\blackimage.png') }}" alt="Product 2">
+                    <img src="{{ asset('images\crush1.png') }}" alt="Product 2">
                 </div>
                 <div class="crushimage-box">
-                    <img src="{{ asset('images\blackimage.png') }}" alt="Product 3">
+                    <img src="{{ asset('images\crush1.png') }}" alt="Product 3">
                 </div>
             </div>
 
