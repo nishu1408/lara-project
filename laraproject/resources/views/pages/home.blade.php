@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="image-content">
-                <img src="images\frame.png" alt="lara sample">
+                <img src="{{ url('C:\xampp\htdocs\lara-project-git\laraproject\public\images\frame_11zon.png') }}" alt="lara sample">
             </div>
         </div>
     </section>
@@ -85,19 +85,19 @@
         <h2>Trendy Collections</h2>
         <div class="collection-row">
             <div class="collection-item">
-                <img src="images/trendyimage1.png" alt="Knits">
+                <img src="{{url('C:\xampp\htdocs\lara-project-git\laraproject\public\images\8cf9904eaf45720eda73e0209a70ab006ad4b972.png')}}
                 <p>Knits</p>
             </div>
             <div class="collection-item">
-                <img src="images/trendyimage2.png" alt="Best Guest Dress">
+                <img src="{{ url('C:\xampp\htdocs\lara-project-git\laraproject\public\images\trendyimage2_11zon.png') }}" alt="Best Guest Dress">
                 <p>Best Guest Dress</p>
             </div>
             <div class="collection-item">
-                <img src="images/trendyimage3.png" alt="Sets">
+                <img src="{{ url('C:\xampp\htdocs\lara-project-git\laraproject\public\images\trendyimage3.png') }}" alt="Sets">
                 <p>Sets</p>
             </div>
             <div class="collection-item">
-                <img src="images/trendyimage4.png" alt="Dresses">
+                <img src="{{ url('C:\xampp\htdocs\lara-project-git\laraproject\public\images\trendyimage4_11zon (1).png') }}" alt="Dresses">
                 <p>Dresses</p>
             </div>
         </div>
@@ -181,19 +181,19 @@
                 LARA<br>
                 <span>Crush</span>
             </div>
-            
+
             <div class="crushimage-grid">
                 <div class="crushimage-box">
-                    <img src="images/crush1.png" alt="Product 1">
+                    <img src="{{ url('C:\xampp\htdocs\lara-project-git\laraproject\public\images\blackimage.png') }}" alt="Product 1">
                 </div>
                 <div class="crushimage-box">
-                    <img src="images/crush2.png" alt="Product 2">
+                    <img src="{{ url('C:\xampp\htdocs\lara-project-git\laraproject\public\images\blackimage.png') }}" alt="Product 2">
                 </div>
                 <div class="crushimage-box">
-                    <img src="images/crush3.png" alt="Product 3">
+                    <img src="{{ url('C:\xampp\htdocs\lara-project-git\laraproject\public\images\blackimage.png') }}" alt="Product 3">
                 </div>
             </div>
-            
+
             <div class="product-info">
                 <div class="as-seen-on">As Seen On</div>
                 <div class="description">Lorem ipsum dolor sit amet consectetur.</div>
@@ -297,22 +297,22 @@
             <span>&#8594;</span>
         </div>
     </section>
-    
+
  <!-- <title>The Life & The Times</title> -->
         <div class="container">
             <h1 class="title">The life & The Times</h1>
             <div class="image-grid">
-                <img src="images/galleryimage1.jpg" alt="Image 1">
-                <img src="images/galleryimage2.jpg" alt="Image 2">
-                <img src="images/galleryimage3.jpg" alt="Image 3">
-                <img src="images/galleryimage4.jpg" alt="Image 4">
-                <img src="images/galleryimage5.jpg" alt="Image 5">
-                <img src="images/galleryimage6.jpg" alt="Image 6">
-                <img src="images/galleryimage7.jpg" alt="Image 7">
-                <img src="images/galleryimage8.jpg" alt="Image 8">
-                <img src="images/galleryimage9.jpg" alt="Image 9">
-                <img src="images/galleryimage10.jpg" alt="Image 10">
+                <img src="{{asset('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage6_11zon.jpg') }}" alt="Image 6">
+                <img src="{{ asset('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage1_11zon.jpg') }}" alt="Image 1">
+                <img src="{{ asset('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage8.jpg') }}" alt="Image 8">
+                <img src="{{asset('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage2_11zon.jpg') }}" alt="Image 2">
+                <img src="{{ asset('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage10_11zon.jpg') }}" alt="Image 10">
+                <img src="{{ asset('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage3_11zon.jpg') }}" alt="Image 3">
+                <img src="{{ asset('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage4_11zon.jpg') }}" alt="Image 4">
+                <img src="{{ asset('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage9_11zon.jpg') }}" alt="Image 9">
+                <img src="{{ asset('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage5_11zon (1).jpg') }}" alt="Image 5">
+                <img src="{{ asset('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage7_11zon (1).jpg') }}" alt="Image 7">
             </div>
         </div>
 @endsection
-    
+

@@ -58,16 +58,16 @@
     <div class="container">
             <h1 class="title">The life & The Times</h1>
             <div class="image-grid">
-                <img src="images/galleryimage1.jpg" alt="Image 1">
-                <img src="images/galleryimage2.jpg" alt="Image 2">
-                <img src="images/galleryimage3.jpg" alt="Image 3">
-                <img src="images/galleryimage4.jpg" alt="Image 4">
-                <img src="images/galleryimage5.jpg" alt="Image 5">
-                <img src="images/galleryimage6.jpg" alt="Image 6">
-                <img src="images/galleryimage7.jpg" alt="Image 7">
-                <img src="images/galleryimage8.jpg" alt="Image 8">
-                <img src="images/galleryimage9.jpg" alt="Image 9">
-                <img src="images/galleryimage10.jpg" alt="Image 10">
+                <img src="{{ url('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage1_11zon.jpg') }}" alt="Image 1">
+                <img src="{{ url('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage2_11zon.jpg') }}" alt="Image 2">
+                <img src="{{ url('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage3_11zon.jpg') }}" alt="Image 3">
+                <img src="{{ url('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage4_11zon.jpg') }}" alt="Image 4">
+                <img src="{{ url('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage5_11zon (1).jpg') }}" alt="Image 5">
+                <img src="{{ url('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage6_11zon.jpg') }}" alt="Image 6">
+                <img src="{{ url('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage7_11zon (1).jpg') }}" alt="Image 7">
+                <img src="{{ url('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage8.jpg') }}" alt="Image 8">
+                <img src="{{ url('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage9_11zon.jpg') }}" alt="Image 9">
+                <img src="{{ url('C:\xampp\htdocs\lara-project-git\laraproject\public\images\galleryimage10_11zon.jpg') }}" alt="Image 10">
             </div>
         </div>
 
