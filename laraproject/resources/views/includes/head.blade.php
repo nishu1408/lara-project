@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="{{asset('all\fontawesome-free-6.7.2-web\css\all.min.css')}}">
 
 <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&family=Oswald:wght@400;700&display=swap"
+<link href="{{asset('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&family=Oswald:wght@400;700&display=swap')}}"
     rel="stylesheet">
 
 <!-- AOS CSS -->

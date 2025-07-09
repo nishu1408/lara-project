@@ -29,21 +29,19 @@
                 <div class="footer-column">
                     <h4>Company</h4>
                     <ul>
-                        <li><a href="#">Long Story</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Privacy & Policy</a></li>
-                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="{{url('/home')}}">Home</a></li>
+                        <li><a href="{{url('/new-arrival')}}">New Arrival</a></li>
+                        <li><a href="{{url('/shop')}}">Shop</a></li>
+                        <li><a href="{{url('/about-us')}}">About Us</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h4>Help</h4>
                     <ul>
                         <li><a href="{{url('/contact')}}">Contact</a></li>
-                        <li><a href="#">Orders</a></li>
-                        <li><a href="#">Shipping Policy</a></li>
-                        <li><a href="#">Return & Euthanges</a></li>
-                        <li><a href="#">Accessibility & Statement</a></li>
-                    </ul>
+                        <li><a href="{{url('profile')}}">Profile</a></li>
+                        <li><a href="{url('search')}}">Search</a></li>
+                        </ul>
                 </div>
                 <div class="footer-column">
                     <h4>Follow</h4>
