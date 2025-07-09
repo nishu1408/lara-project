@@ -32,7 +32,7 @@
                     </button>
                 </div>
                 <div class="bf-box text-center">
-                    <img src="images/dress2.png" class="bf-img mb-2" alt="Dress">
+                    <img src="{{asset('images/dress2.png')}}" class="bf-img mb-2" alt="Dress">
                     <p class="mb-1">Tulle Midi Dress</p>
                     <p class="fw-bold mb-2">Rs. 74,999</p>
                     <button class="btn bf-btn">
@@ -40,7 +40,7 @@
                     </button>
                 </div>
                 <div class="bf-box text-center">
-                    <img src="images/dress3.png" class="bf-img mb-2" alt="Dress">
+                    <img src="{{aaset('images/dress3.png')}}" class="bf-img mb-2" alt="Dress">
                     <p class="mb-1">Tulle Midi Dress</p>
                     <p class="fw-bold mb-2">Rs. 74,999</p>
                     <button class="btn bf-btn">
@@ -48,7 +48,7 @@
                     </button>
                 </div>
                 <div class="bf-box text-center">
-                    <img src="images/dress4.png" class="bf-img mb-2" alt="Dress">
+                    <img src="{{aaset('images/dress4.png')}}" class="bf-img mb-2" alt="Dress">
                     <p class="mb-1">Tulle Midi Dress</p>
                     <p class="fw-bold mb-2">Rs. 74,999</p>
                     <button class="btn bf-btn">
@@ -85,19 +85,18 @@
         <h2>Trendy Collections</h2>
         <div class="collection-row">
             <div class="collection-item">
-<<<<<<< HEAD
-                <img src="{{asset('images\8cf9904eaf45720eda73e0209a70ab006ad4b972.png')}}">
+              <img src="{{asset('images\8cf9904eaf45720eda73e0209a70ab006ad4b972.png')}}">
                 <p>Knits</p>
             </div>
             <div class="collection-item">
                 <img src="{{ asset('images\trendyimage2_11zon.png') }}" alt="Best Guest Dress">
-=======
-                <img src="{{asset('images\image1.png')}}
+
+                <img src="{{asset('images\image1.png')}}">
                 <p>Knits</p>
             </div>
             <div class="collection-item">
                 <img src="{{ asset('trendyimage2_11zon.png') }}" alt="Best Guest Dress">
->>>>>>> 8b0999ada374852d6b0fb5e532930a944e289753
+
                 <p>Best Guest Dress</p>
             </div>
             <div class="collection-item">
@@ -172,7 +171,7 @@
         </button>
       </div>
       <div class="half-item text-center">
-        <img src="images/productimage2.jpg" class="half-img mb-2" alt="Item">
+        <img src="{{asset('images/productimage2.jpg')}}" class="half-img mb-2" alt="Item">
         <p class="mb-1">Tulle Midi Dress</p>
         <p class="fw-bold mb-2">Rs. 74,999</p>
         <button class="btn hf-btn">
@@ -215,7 +214,7 @@
     <h2 class="text-center mb-4">Hot Holiday</h2>
     <div class="half-flex">
       <div class="half-item text-center">
-        <img src="images/hotholidayimage5.png" class="half-img mb-2" alt="Item">
+        <img src="{{ asset('images\blackimage.png') }}" class="half-img mb-2" alt="Item">
         <p class="mb-1">Tulle Midi Dress</p>
         <p class="fw-bold mb-2">Rs. 74,999</p>
         <button class="btn hf-btn">
@@ -224,7 +223,7 @@
       </div>
       <!-- Repeat for 8 items -->
       <div class="half-item text-center">
-        <img src="images/hotholidayimage6.png" class="half-img mb-2" alt="Item">
+        <img src="{{asset('images\blackimage.png')}}" class="half-img mb-2" alt="Item">
         <p class="mb-1">Tulle Midi Dress</p>
         <p class="fw-bold mb-2">Rs. 74,999</p>
         <button class="btn hf-btn">
@@ -232,7 +231,7 @@
         </button>
       </div>
       <div class="half-item text-center">
-        <img src="images/productimage5.jpg" class="half-img mb-2" alt="Item">
+        <img src=" class={{ asset('images\blackimage.png') }}"half-img mb-2" alt="Item">
         <p class="mb-1">Tulle Midi Dress</p>
         <p class="fw-bold mb-2">Rs. 74,999</p>
         <button class="btn hf-btn">
@@ -240,7 +239,7 @@
         </button>
       </div>
       <div class="half-item text-center">
-        <img src="images/productimage6.jpg" class="half-img mb-2" alt="Item">
+        <img src="{{ asset('images\blackimage.png') }}" class="half-img mb-2" alt="Item">
         <p class="mb-1">Tulle Midi Dress</p>
         <p class="fw-bold mb-2">Rs. 74,999</p>
         <button class="btn hf-btn">
@@ -248,7 +247,7 @@
         </button>
       </div>
       <div class="half-item text-center">
-        <img src="images\hotholidayimage2.png" class="half-img mb-2" alt="Item">
+        <img src="{{ asset('images\blackimage.png') }}" class="half-img mb-2" alt="Item">
         <p class="mb-1">Tulle Midi Dress</p>
         <p class="fw-bold mb-2">Rs. 74,999</p>
         <button class="btn bf-btn">
@@ -256,7 +255,7 @@
         </button>
       </div>
       <div class="half-item text-center">
-        <img src="images/hotholidayimage3.png" class="half-img mb-2" alt="Item">
+        <img src="{{ asset('images\blackimage.png') }}" class="half-img mb-2" alt="Item">
         <p class="mb-1">Tulle Midi Dress</p>
         <p class="fw-bold mb-2">Rs. 74,999</p>
         <button class="btn hf-btn">
@@ -264,7 +263,7 @@
         </button>
       </div>
       <div class="half-item text-center">
-        <img src="images/hotholidayimage4.png" class="half-img mb-2" alt="Item">
+        <img src="{{ asset('images\blackimage.png') }}" class="half-img mb-2" alt="Item">
         <p class="mb-1">Tulle Midi Dress</p>
         <p class="fw-bold mb-2">Rs. 74,999</p>
         <button class="btn hf-btn">
@@ -272,7 +271,7 @@
         </button>
       </div>
       <div class="half-item text-center">
-        <img src="images/productimage2.jpg" class="half-img mb-2" alt="Item">
+        <img src="{{ asset('images\blackimage.png') }}" class="half-img mb-2" alt="Item">
         <p class="mb-1">Tulle Midi Dress</p>
         <p class="fw-bold mb-2">Rs. 74,999</p>
         <button class="btn hf-btn">
@@ -296,7 +295,7 @@
                 experiences. Discover why our customers trust Lara Clothing to elevate their wardrobe!
             </p>
             <div class="testimonial-person">
-                <img src="images/user.jpg" alt="Lana Dey" />
+                <img src="{{ asset(' images\lanadey.jpg') }}" alt="Lana Dey" />
                 <h3>Lana Dey</h3>
                 <span>From London</span>
             </div>
